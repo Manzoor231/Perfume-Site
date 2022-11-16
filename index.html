@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    .p{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .btn{
+      margin-top: 30px;
+
+    }
+    .btn a{
+      text-decoration: none;
+      background-color:hsl(158, 36%, 37%) ;
+      color: white;
+      padding: 12px 55px;
+      border-radius: 8px;
+      transition: all 0.2s ease-in-out;
+    }
+    .btn a:hover{
+      background-color: hsl(212, 21%, 14%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="align">
+      <div class="card">
+        <div class="logo">
+          <img src="./images/image-product-desktop.jpg" alt="">
+        </div>
+        <div class="content">
+
+          <p style="font-family:'Fraunces', serif; font-size: 12px;margin-bottom: 16px; margin-top: 10px; color:  hsl(228, 12%, 48%);"> PERFUME</p>
+
+          <h1 style="color: hsl(212, 21%, 14%); font-size: 25px; line-height: 25px; margin-bottom: 14px;"> Gabrielle Essence Eau De Parfum</h1>
+
+          <p style="font-size: 12px; margin-bottom: 15px; color: hsl(228, 12%, 48%);"> A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+            <div class="p">
+          <h2 style="color: hsl(158, 36%, 37%);"> $149.99</h2>
+          <p style="color: hsl(158, 36%, 37%);"> $169.99</p>
+        </div>
+        <div class="btn">
+          <a href="#"> Add to Cart</a>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Manzoor Strange</a>.
+  </div>
+</body>
+
+</html>
